@@ -1,0 +1,123 @@
+ {
+  "project": {
+    "name": "New project",
+    "id": "new",
+    "creationTs": 1683780866245,
+    "lastModifiedTs": 1683781526876
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "image_mixer_y5dz22",
+        "nodeSpecId": "image_mixer",
+        "customData": {
+          "rightOfNode": "input_image_n4tlr5",
+          "previewX": 944,
+          "previewY": 16,
+          "previewWidth": 320,
+          "previewHeight": 240
+        },
+        "uiData": {
+          "posX": 368,
+          "posY": 96,
+          "width": 224,
+          "selected": true
+        },
+        "propValues": {
+          "mode": "luminosity",
+          "hidePreview": false
+        },
+        "inputValues": {
+          "topText": "hello",
+          "midText": "",
+          "bottomText": ""
+        },
+        "incomingEdges": {
+          "image1": [
+            {
+              "sourceNodeId": "input_image_n4tlr5",
+              "outputId": "image"
+            }
+          ],
+          "image2": [
+            {
+              "sourceNodeId": "input_image_r3q7rn",
+              "outputId": "image"
+            }
+          ]
+        }
+      },
+      {
+        "id": "input_image_n4tlr5",
+        "nodeSpecId": "input_image",
+        "customData": {
+          "initialWidth": 448,
+          "initialHeight": 240,
+          "previewX": 16,
+          "previewY": 16,
+          "previewWidth": 448,
+          "previewHeight": 240
+        },
+        "uiData": {
+          "posX": -112,
+          "posY": -16,
+          "width": 176,
+          "selected": false
+        },
+        "propValues": {
+          "urls": [
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic1.jpg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic2.jpeg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic3.jpg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic4.jpeg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic5.jpg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic6.jpg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic7.jpeg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic8.jpg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic9.jpg"
+          ],
+          "gridColumnCount": 3,
+          "allowUserUpload": false,
+          "selectedImageUrl": "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic3.jpg",
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_image_r3q7rn",
+        "nodeSpecId": "input_image",
+        "customData": {
+          "initialWidth": 448,
+          "initialHeight": 240,
+          "leftOfNode": "image_mixer_y5dz22",
+          "previewX": 480,
+          "previewY": 16,
+          "previewWidth": 448,
+          "previewHeight": 240
+        },
+        "uiData": {
+          "posX": 0,
+          "posY": 192,
+          "width": 176,
+          "selected": false
+        },
+        "propValues": {
+          "urls": [
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic1.jpg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic2.jpeg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic3.jpg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic4.jpeg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic5.jpg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic6.jpg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic7.jpeg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic8.jpg",
+            "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic9.jpg"
+          ],
+          "gridColumnCount": 3,
+          "allowUserUpload": false,
+          "selectedImageUrl": "https://storage.googleapis.com/tfweb/visualblocks-input-images/pic4.jpeg",
+          "hidePreview": false
+        }
+      }
+    ]
+  }
+}
